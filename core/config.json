@@ -1,0 +1,52 @@
+{
+    "APP_INITIAL" : "MLS:Fuel :: ",
+    "APP_NAME": "MLS : FUEL",
+    "APP_VERSION" : "T-0.0.1",
+    "APP_BUILD" : "11.02.2022",
+    "DB_NAME" : "middleton_fuel_db",
+    "DB_USER_NAME" : "middleton_fuel_db_user",
+    "DB_PASSWORD" : "e$OzVjgP6nI*",
+
+    "API_URI_server" : "https://data.middleton.in/api/fuel/" ,
+    "API_URI_local" : "http://127.0.0.1:8000/api/fuel/",
+    "API_URI" : "http://192.168.1.10:8000/api/fuel/",
+    "API_KEY" : "9retA^-uT#^HJM7A",
+
+    "STORAGE_KEY" : "fule.middleton.in@k&Qu!r5+k33mV5M#",
+
+
+    "SCREENS" : { 
+                    "FLASH" : "ScrFlash",
+                    "WAIT_WINDOW" : "WaitWindow",
+                    "LOGIN" : "ScrLogin",
+                    "LOCK"  : "ScrLock",
+                    "DASHBOARD" : "ScrDashboard",
+                    "PROFILE"   : "ScrProfile",
+                    "FuelIn"    : "FuelIn"
+                },
+    "_STYLES" : {
+                    "BAR" : { 
+                                
+                                "headerColor": "#8200d6",
+                                "footerColor" : "#8200d6",
+                                "defaultTextColor": "white",
+                                "drawerActiveBackgroundColor":"#aa18ea",
+                                "drawerActiveTintColor": "#fff",
+                                "drawerInactiveTintColor": "red",
+                                "selectedTextColor" : "Yellow",                                 
+                                "home" : {
+                                            "headerColor": "#8200d6",
+                                            "footerColor" : "#8200d6" 
+                                },
+                                "profile": {
+                                            "headerColor": "#09679e",
+                                            "footerColor" : "#09679e" 
+                                },
+                                "screen1":{
+                                            "headerColor": "#00a884",
+                                            "footerColor" : "#00a884" 
+                                }
+                            }
+               }
+
+  }
